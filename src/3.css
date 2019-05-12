@@ -1,0 +1,53 @@
+
+body{
+  background-color:#ccffff;
+  font-size: 1em;
+}
+
+.search-form{
+  display: inline-block;
+  height:30px;
+  width:100%;
+}
+
+.input{
+  height:inherit;
+  width:70%;
+}
+
+.button{
+  cursor:pointer;
+  height:inherit;
+  width:29%;
+}
+
+.table{
+  background-color: #ffffff;
+  margin-top:10px;
+  width:100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.table__cell{
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.table__cell:hover{
+  background-color: #b3ffff;
+}
+
+
+@media only screen and (min-width:900px){
+.search-form{
+    margin: 0 10%;
+    width: 80%;
+}
+
+.table{
+    margin: 1% 10%;
+    width: 80%;
+}
+
+}
